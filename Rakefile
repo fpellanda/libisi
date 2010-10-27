@@ -22,7 +22,7 @@ require 'echoe'
 # Echoe
 # See http://blog.evanweaver.com/files/doc/fauna/echoe/files/README.html
 
-Echoe.new('libisi', '0.3.0') do |p|
+Echoe.new('libisi', '0.3.1') do |p|
   p.description    = "Library for easy and fast shell script developing"
   p.url            = "http://rubyforge.org/projects/libisi/"
   p.author         = "Pellanda Flavio, Copyright Logintas AG"

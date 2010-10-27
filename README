@@ -171,4 +171,7 @@ Links:
 * Rubyforge: http://rubyforge.org/projects/libisi/
 
 Release:
- rake manifest; rake release
+* gem install echoe rubyforge
+* rake manifest
+* rake release
+* rake publish_docs
