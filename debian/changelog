@@ -1,3 +1,15 @@
+libisi-ruby (0.2.19) all; urgency=low
+
+  * New release
+  * Added setup.rb
+  * Added gitignore file
+  * Added debian directory
+  * Renamed README to README.markdown.
+  * New version for upload
+  * Added readme file
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Thu, 18 Nov 2010 19:36:18 +0100
+
 libisi-ruby (0.2.18) all; urgency=low
 
   * New release
