@@ -1,0 +1,45 @@
+Source: libisi-ruby
+Section: libs
+Conflicts: logintas-libisi-ruby
+Priority: optional
+Maintainer: Flavio Pellanda <flavio.pellanda@logintas.ch>
+Build-Depends: cdbs, debhelper (>> 5.0.0), ruby-pkg-tools, ruby1.8
+Standards-Version: 3.8.0
+ 
+Package: libisi-ruby
+Architecture: all
+Depends: libisi-ruby1.8
+Replaces: logintas-libisi-ruby
+Conflicts: logintas-libisi-ruby
+Suggests: sun-java5-jre, libjfreechart-java, librjb-ruby
+Description: Library for isi programming ruby scripts, ruby
+ .
+ This is a dummy package to install the libisi-ruby ruby gem
+ the default version of Ruby.
+ .
+ It helps for the following tasks:
+  * Logging (with Log4r)
+  * Evaluating Bash-Lines
+  * Display Progressbars (console)
+  * Executing commands with popen3 with logging
+  * Standard commandline options
+  * Standard UI command (console, kde)
+  * Creating Charts
+ 
+Package: libisi-ruby1.8
+Architecture: all
+Depends: ruby1.8, liblog4r-ruby, libruby1.8, libprogressbar-ruby1.8, libtmail-ruby1.8,libtext-format-ruby1.8, libcmdparse-ruby
+Replaces: logintas-libisi-ruby
+Conflicts: logintas-libisi-ruby
+Description: the libisi-ruby ruby gem
+ .
+ Implementation fo libisi-ruby for ruby1.8
+ 
+Package: libisi-ruby-doc
+Section: doc
+Architecture: all
+Description: documentation for the libisi-ruby ruby gem
+ .
+ This is the documentation package, with upstream documentation as well as
+ generated rdoc.
+

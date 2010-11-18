@@ -1,0 +1,544 @@
+libisi-ruby (0.2.18) all; urgency=low
+
+  * New release
+  * Corrected ordered hash test.
+  * Changed text for shell after error.
+  * Added header and footer function calls to doc.
+  * Added profiling
+  * Added base cache functinoality.
+  * Added options span_grouping for tables.
+  * Added a lot of new classes for proxy functionality.
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Mon, 11 Oct 2010 10:50:09 +0200
+
+libisi-ruby (0.2.17) all; urgency=low
+
+  * New release
+  * Check if xvinfo is available before checking x_available.
+  * Removed warnings on jfreechart loading
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Tue, 01 Jun 2010 15:48:24 +0200
+
+libisi-ruby (0.2.16) all; urgency=low
+
+  * New release
+  * Fixes in paths
+  * Fixed "can't convert nil into String" in sending mails
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Wed, 26 May 2010 11:21:11 +0200
+
+libisi-ruby (0.2.15) all; urgency=low
+
+  * New release
+  * Added rails paths
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Thu, 20 May 2010 16:10:59 +0200
+
+libisi-ruby (0.2.14) unstable; urgency=low
+
+  * New release
+  * Added longdesc for libisi-ruby-doc
+  * Removed unnecessary debian files.
+  * Added starts_with function for string.
+  * Added comment for initialize rails.
+  * Question if console is desired on temporary path when console is ui
+    and log is verbose.
+  * added function paths for data, config, test and binary paths.
+  * Do check ui availability only if no ui is selected at init_libisi
+  * Uri base update for activerecord and ldap support
+  * Added log output only to stderr.
+  * Speedup in table generation.
+  * Added uri/ldap
+  * Added uri/file
+  * Added uri/activerecord
+  * Added doc/wiki
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Tue, 11 May 2010 14:49:24 +0200
+
+libisi-ruby (0.2.13) all; urgency=low
+
+  * New release
+  * Append options text after yielding for optparse.
+  * Added diff to console ui
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Wed, 10 Mar 2010 18:08:43 +0100
+
+libisi-ruby (0.2.12) all; urgency=low
+
+  * New release
+  * Added prefix to benchmark
+  * Added shell call for console ui.
+  * Added text output for question_yes_no
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Wed, 03 Mar 2010 16:37:00 +0100
+
+libisi-ruby (0.2.11) all; urgency=low
+
+  * New release
+  * Mount hal volumens with mount_options.
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Tue, 02 Mar 2010 10:32:10 +0100
+
+libisi-ruby (0.2.10) all; urgency=low
+
+  * New release
+  * Worked on testing.
+  * Added yes_no_retry functin.
+  * Extended table building with subtotals.
+  * Added Benchmarking function
+  * Chart update.
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Fri, 26 Feb 2010 15:29:08 +0100
+
+libisi-ruby (0.2.9) all; urgency=low
+
+  * New release
+  * Worked on Charting.
+  * Extended rgb color
+  * added color test.
+  * Added python bridge
+  * Added color, tidied up bridge and use markers for different ranges.
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Wed, 27 Jan 2010 18:00:47 +0100
+
+libisi-ruby (0.2.8) all; urgency=low
+
+  * New release
+  * Chart2Html
+  * Added rudimentary tooltips.
+  * Added markers, legend rotation and more enhancements.
+  * Added usage for hex colors.
+  * Write ranges
+  * All charts working now ,
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Tue, 19 Jan 2010 17:57:47 +0100
+
+libisi-ruby (0.2.7) all; urgency=low
+
+  * New release
+  * Removed provides
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Thu, 14 Jan 2010 17:13:57 +0100
+
+libisi-ruby (0.2.6) all; urgency=low
+
+  * New release
+  * resolved conflicts
+  * Moved replaces to libisi-ruby1.8
+  * Moved replaces to libisi-ruby1.8
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Thu, 14 Jan 2010 17:08:01 +0100
+
+libisi-ruby (0.2.5) all; urgency=low
+
+  * New release
+  * Moved replaces to libisi-ruby1.8
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Thu, 14 Jan 2010 17:01:55 +0100
+
+libisi-ruby (0.2.4) all; urgency=low
+
+  * New release
+  * Added conflicts in logintas-libisi package
+  * Added dependency libcmdparse-ruby
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Thu, 14 Jan 2010 16:54:33 +0100
+
+libisi-ruby (0.2.3) all; urgency=low
+
+  * New release
+  * Remove temporary directory on block exit.
+  * Added hint if libmlib_image.so cannot be found.
+  * Suggests added
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Thu, 14 Jan 2010 16:33:31 +0100
+
+libisi-ruby (0.2.2) all; urgency=low
+
+  * New release
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Thu, 14 Jan 2010 14:36:09 +0100
+
+libisi-ruby (0.2.1) unstable; urgency=low
+
+  * New release
+  * Added ordered hash
+  * Worked on doc.table
+  * Workded on Charting
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Wed, 13 Jan 2010 17:23:30 +0100
+
+libisi-ruby (0.2.0) unstable; urgency=low
+
+  * New release
+  * Change to new minor version
+  * Renamed package to libisi-ruby
+  * Prepared for setup.rb
+  * Added temporary directory function
+  * Added ordered hash gem to lib
+  * Added chart classes.
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Thu, 07 Jan 2010 15:07:17 +0100
+
+libisi-ruby (0.1.60) all; urgency=low
+
+  * New release
+  * Allow error as result of result of system.
+  * Added function for single tempfile.
+  * Remove pid file on exit.
+  * Added repetitive arguments for optparse :arguments.
+  * fixed default colorization method.
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Mon, 28 Dec 2009 12:02:34 +0100
+
+libisi-ruby (0.1.59) all; urgency=low
+
+  * New release
+  * Progress bar can be called with an array.
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Mon, 16 Nov 2009 11:03:06 +0100
+
+libisi-ruby (0.1.58) unstable; urgency=low
+
+  * New release
+  * Reset @progress in enable_progress.
+  * Take logger level on new_logger.
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Tue, 03 Nov 2009 14:33:43 +0100
+
+libisi-ruby (0.1.57) all; urgency=low
+
+  * New release
+  * Corrected load_env condition
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Wed, 28 Oct 2009 10:58:39 +0100
+
+libisi-ruby (0.1.56) all; urgency=low
+
+  * New release
+  * log level and only option can now be a string or a symbol too
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Wed, 28 Oct 2009 10:43:47 +0100
+
+libisi-ruby (0.1.55) all; urgency=low
+
+  * New release
+  * Removed include of log4r in libisi.rb
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Tue, 27 Oct 2009 17:18:35 +0100
+
+libisi-ruby (0.1.54) unstable; urgency=low
+
+  * New release
+  * Fix load_env test.
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Thu, 22 Oct 2009 18:23:08 +0200
+
+libisi-ruby (0.1.53) etch; urgency=low
+
+  * New release
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Tue, 20 Oct 2009 13:43:07 +0200
+
+libisi-ruby (0.1.52) etch; urgency=low
+
+  * New release
+  * Show product's name during LUKS setup
+  * Corrected Hal.partition? (use field volume.is_partition instead of
+    volume.partition.label)
+  * Added iniflie
+
+ -- Daniel Lutz (Logintas 2008) <daniel.lutz@logintas.ch>  Mon, 07 Sep 2009 11:40:56 +0200
+
+libisi-ruby (0.1.51) etch; urgency=low
+
+  * New release
+  * Corrected text table output if result of a block is not a string.
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Wed, 26 Aug 2009 15:14:41 +0200
+
+libisi-ruby (0.1.50) etch; urgency=low
+
+  * New release
+  * Added colspan and rowspan to html table.
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Thu, 20 Aug 2009 15:15:58 +0200
+
+libisi-ruby (0.1.49) etch; urgency=low
+
+  * New release
+  * Style added to html_tables.
+  * Code von hostname -d vereinfacht.
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Thu, 20 Aug 2009 14:08:59 +0200
+
+libisi-ruby (0.1.48) etch; urgency=low
+
+  * New release
+  * Corrected return value of block to get domain (block value instead
+    of 'return')
+
+ -- Daniel Lutz (Logintas 2008) <daniel.lutz@logintas.ch>  Fri, 14 Aug 2009 09:05:21 +0200
+
+libisi-ruby (0.1.47) etch; urgency=low
+
+  * New release
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Fri, 07 Aug 2009 13:25:44 +0200
+
+libisi-ruby (0.1.46) etch; urgency=low
+
+  * New release
+  * Avoid exception on empty domain on evaluation of 'hostname -d'
+
+ -- Daniel Lutz (Logintas 2008) <daniel.lutz@logintas.ch>  Thu, 30 Jul 2009 17:14:03 +0200
+
+libisi-ruby (0.1.45) etch; urgency=low
+
+  * New release
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Fri, 24 Jul 2009 10:57:42 +0200
+
+libisi-ruby (0.1.44) unstable; urgency=low
+
+  * New release
+  * Do not raise not_implemented on not implemented progress bar
+    functions if progressbar is not enabled.
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Fri, 24 Jul 2009 10:51:16 +0200
+
+libisi-ruby (0.1.43) etch; urgency=low
+
+  * New release
+  * Added gourped table.
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Tue, 21 Jul 2009 14:47:18 +0200
+
+libisi-ruby (0.1.42) unstable; urgency=low
+
+  * New release
+  * Use --output only for output to file (not -o).
+  * Write to stdout if mysql target is not given
+  * Exit if pbar is not set in kde.
+  * Added table grouping to base doc.
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Wed, 15 Jul 2009 19:07:03 +0200
+
+libisi-ruby (0.1.41) etch; urgency=low
+
+  * New release
+  * Bugfix that logger claims missing filename.
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Thu, 18 Jun 2009 10:31:13 +0200
+
+libisi-ruby (0.1.40) etch; urgency=low
+
+  * New release
+  * added missing files.
+  * Added missing return value in mysql.
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Wed, 17 Jun 2009 10:14:54 +0200
+
+libisi-ruby (0.1.39) unstable; urgency=low
+
+  * New release
+  * Added missing classes.
+  * Added uri and doc classes.
+  * Added simple doc functionality.
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Wed, 10 Jun 2009 16:55:06 +0200
+
+libisi-ruby (0.1.38) etch; urgency=low
+
+  * New release
+  * Escaped special characters from pid files.
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Tue, 19 May 2009 10:50:46 +0200
+
+libisi-ruby (0.1.37) etch; urgency=low
+
+  * New release
+  * Added incremental timeout when label is not available after luks
+    setup.
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Mon, 18 May 2009 14:59:35 +0200
+
+libisi-ruby (0.1.36) etch; urgency=low
+
+  * New release
+  * added warning if lukdevice is teared down again due to hal bug.
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Mon, 18 May 2009 14:46:58 +0200
+
+libisi-ruby (0.1.35) etch; urgency=low
+
+  * New release
+  * Added locking code, but is disabled (HAL).
+  * Implemented workaround for lukssetup that no label is given.
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Mon, 18 May 2009 14:30:02 +0200
+
+libisi-ruby (0.1.34) etch; urgency=low
+
+  * New release
+  * Better output in error of popen3 (Dir.pwd included)
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Fri, 15 May 2009 16:28:03 +0200
+
+libisi-ruby (0.1.33) etch; urgency=low
+
+  * New release
+  * Corrected bug that arguments could not be parsed.
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Thu, 14 May 2009 10:23:12 +0200
+
+libisi-ruby (0.1.32) etch; urgency=low
+
+  * New release
+  * Optparse did not gave results back if no arguments defined.
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Tue, 12 May 2009 18:01:57 +0200
+
+libisi-ruby (0.1.31) etch; urgency=low
+
+  * New release
+  * Sort paramter list alphabetically.
+  * Fixed conflict.
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Tue, 12 May 2009 17:06:27 +0200
+
+libisi-ruby (0.1.30) unstable; urgency=low
+
+  * New release
+  * Renamed jaunty to etch
+  * added testscript for optparsing with action.
+  * Added dbus send to rescan before hal reload (still commented out).
+  * Option :actions can be provided at optparse to use actions with
+    different arguments.
+  * Added function result_of_system to get the stoutput as string for a
+    system call.n
+  * A password can be provided for mounting luks partitions.
+  * Do not print password if lukssetup in hal fails.
+  * Tidied up changelog after isirelease changes record.
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Tue, 12 May 2009 16:34:41 +0200
+
+libisi-ruby (0.1.19) etch; urgency=low
+
+  * Better help output with arguments.
+  * Worked on daemonize compatibility.
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Fri, 08 May 2009 13:31:58 +0200
+
+libisi-ruby (0.1.18) etch; urgency=low
+
+  * fixed bug that luksdevice did not display as mounted
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Wed, 06 May 2009 16:29:35 +0200
+
+libisi-ruby (0.1.17) etch; urgency=low
+
+  * Added envronment loading saving functions.
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Wed, 06 May 2009 14:44:24 +0200
+
+libisi-ruby (0.1.16) etch; urgency=low
+
+  * Not using anymore set_config function of backup.
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Wed, 06 May 2009 13:53:04 +0200
+
+libisi-ruby (0.1.15) etch; urgency=low
+
+  * Added execute in console for x11 ui
+  * Added nonblocking info.
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Wed, 06 May 2009 10:04:04 +0200
+
+libisi-ruby (0.1.14) etch; urgency=low
+
+  * Added execute in console and command_line_parse function.
+  * Added bell and made info,warn and error also blocking in console.
+  * Restart kded if not running and KDE_FULL_SESSION is set
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Tue, 05 May 2009 16:18:34 +0200
+
+libisi-ruby (0.1.13) etch; urgency=low
+
+  * bugfix in email
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Mon, 04 May 2009 13:45:25 +0200
+
+libisi-ruby (0.1.11) etch; urgency=low
+
+  * restart kded if not running
+  * progressbar fix
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Fri, 01 May 2009 13:45:41 +0200
+
+libisi-ruby (0.1.10) etch; urgency=low
+
+  * added rails ui (progressbar)
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Thu, 30 Apr 2009 15:04:21 +0200
+
+libisi-ruby (0.1.9) etch; urgency=low
+
+  * removed pam stuff again (unmet dependencies on etch)
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Wed, 29 Apr 2009 10:25:33 +0200
+
+libisi-ruby (0.1.8) etch; urgency=low
+
+  * added sendmail and daemonize for execute_and_sendmail script
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Wed, 29 Apr 2009 09:52:42 +0200
+
+libisi-ruby (0.1.7) etch; urgency=low
+
+  * added ruby-pam
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Fri, 24 Apr 2009 10:16:16 +0200
+
+libisi-ruby (0.1.6) etch; urgency=low
+
+  * added ensure_script_not_running_already
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Thu, 23 Apr 2009 13:40:25 +0200
+
+libisi-ruby (0.1.5) etch; urgency=low
+
+  * added progress bar for kde
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Thu, 23 Apr 2009 10:33:47 +0200
+
+libisi-ruby (0.1.5) etch; urgency=low
+
+  * mountable if fstype != ""
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Wed, 22 Apr 2009 13:42:27 +0200
+
+libisi-ruby (0.1.4) etch; urgency=low
+
+  * added x11 ui
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Tue, 21 Apr 2009 16:19:04 +0200
+
+libisi-ruby (0.1.3) etch; urgency=low
+
+  * Added HAL library
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Tue, 21 Apr 2009 13:29:43 +0200
+
+libisi-ruby (0.1.2) etch; urgency=low
+
+  * added nobody ui
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Fri, 17 Apr 2009 15:02:54 +0200
+
+libisi-ruby (0.1.0) etch; urgency=low
+
+  * Created new package.
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Thu, 16 Apr 2009 11:52:32 +0200
+
