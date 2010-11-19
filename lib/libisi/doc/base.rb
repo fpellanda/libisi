@@ -82,7 +82,7 @@ class BaseDoc
     if options[:items] and options[:columns] and not options[:no_header]
       # create header
       tr(options) { options[:columns].flatten.each_with_index{|c,i| th(options) {
-	    if f = options[:header_function]
+	    if f = options[:header_item_function]
 	      case f
 	      when Proc
 		if f.arity == 1
