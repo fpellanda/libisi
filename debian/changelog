@@ -1,3 +1,12 @@
+libisi-ruby (0.2.20) all; urgency=low
+
+  * New release
+  * Fixed namespace colliosion
+  * Replaced double used functionname header_function to
+    header_item_function and header_function in doc base.
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Tue, 18 Jan 2011 16:39:38 +0100
+
 libisi-ruby (0.2.19) all; urgency=low
 
   * New release
