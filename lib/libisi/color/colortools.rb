@@ -109,16 +109,16 @@ class ColortoolsColor < BaseColor
   end
 
   def hue_percentage_implementation(percentage)
-    @rgb_color = @rgb_color.adjust_hue(percentage)
+    @rgb_color = ColortoolsColor.in_colortool{@rgb_color.adjust_hue(percentage)}
   end
 
-  def brightness_implementation; @rgb_color.brightness; end
+  def brightness_implementation; ColortoolsColor.in_colortool{@rgb_color.brightness}; end
   def brightness_percentage_implementation(percentage)
-    @rgb_color = @rgb_color.adjust_brightness(percentage)
+    @rgb_color = ColortoolsColor.in_colortool{@rgb_color.adjust_brightness(percentage)}
   end 
 
   def saturation_percentage_implementation(percentage)
-    @rgb_color = @rgb_color.adjust_saturation(percentage)
+    @rgb_color = ColortoolsColor.in_colortool{@rgb_color.adjust_saturation(percentage)}
   end 
 
 end
