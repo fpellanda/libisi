@@ -162,9 +162,9 @@ the progress with:
 
 = Appendix
 
-SVN:
-* URL: svn+ssh://fpellanda@rubyforge.org/var/svn/libisi/trunk
-* Repository Root: svn+ssh://fpellanda@rubyforge.org/var/svn/libisi
+Sources:
+* URL: https://github.com/fpellanda/libisi
+* Repository: git@github.com:fpellanda/libisi.git
 
 Links:
 * Rubygems: https://rubygems.org/gems/libisi
