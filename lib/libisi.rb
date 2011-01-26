@@ -142,7 +142,7 @@ module LibIsi
       end
 
       begin
-	pid_file.delete if pid_file.exist?
+	pid_file.delete if pid_file.exist? and Process.pid.to_s == pid_file.readlines.join.strip
       rescue
 	$log.error("Could not remove pid file #{pid_file}: #{$!}") if $log
       end
