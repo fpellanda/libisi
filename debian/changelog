@@ -1,3 +1,12 @@
+libisi-ruby (0.2.21) all; urgency=low
+
+  * New release
+  * fixed urls to github
+  * Do only remove pid file if it has onw pid on exit
+  * Colortools namespace fix for all functioncalls
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Wed, 26 Jan 2011 11:27:11 +0100
+
 libisi-ruby (0.2.20) all; urgency=low
 
   * New release
