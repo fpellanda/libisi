@@ -150,6 +150,13 @@ class ConsoleUI < BaseUI
   def console_commands(commands) ; commands.map {|number| "\e[#{number}m"}.join ;end
 
   def colorize(color)
+    unless defined?(@support_colors)
+      res = %x{/usr/bin/tput colors 2> /dev/null}
+      @support_colors = (($? == 0) and !(res =~ /-1/))
+      $log.debug("Terminal supports colors: #{@support_colors} (#{res.inspect}, #{ENV["TERM"].inspect})")
+    end
+    return yield unless @support_colors
+
     raise "Unexpected color: #{color}" unless CONSOLE_COLORS.include?(color)    
     console_commands(CONSOLE_COLOR_STRINGS[color]) +
       yield +
