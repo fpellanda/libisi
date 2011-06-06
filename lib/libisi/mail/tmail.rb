@@ -85,9 +85,9 @@ class TMailMail < BaseMail
   def create_text_part(text, content_type = "plain")
     text_part = TMail::Mail.new
     text_part.body = text
-    text_part.charset = 'utf-8'
     text_part.transfer_encoding = '7bit'
     text_part.set_content_type('text', content_type)
+    text_part.charset = 'utf-8'
     text_part
   end
 
