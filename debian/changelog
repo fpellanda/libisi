@@ -1,3 +1,11 @@
+libisi-ruby (0.2.22) all; urgency=low
+
+  * New release
+  * Fixed encoding for mailsending.
+  * Check if terminal can display colors on colorize.
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Mon, 06 Jun 2011 11:06:02 +0200
+
 libisi-ruby (0.2.21) all; urgency=low
 
   * New release
