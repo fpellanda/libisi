@@ -78,7 +78,7 @@ class TMailMail < BaseMail
     
     Net::SMTP.start("localhost",25) do |smtpclient|
       $log.info("Sending mail with subject #{mail.subject.to_s.inspect} to #{mail.to.to_s.inspect}")
-      smtpclient.send_message(mail.to_s, mail.from, mail.to)
+      smtpclient.send_message(mail.to_s, mail.from, mail.to + ((mail.bcc or []) + (mail.cc or [])))
     end
   end
   
