@@ -1,3 +1,10 @@
+libisi-ruby (0.2.23) all; urgency=low
+
+  * New release
+  * Corrected tmail cc and bcc
+
+ -- Flavio Pellanda (Logintas 2008) <flavio.pellanda@logintas.ch>  Mon, 20 Jun 2011 15:50:00 +0200
+
 libisi-ruby (0.2.22) all; urgency=low
 
   * New release
