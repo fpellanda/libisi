@@ -15,6 +15,7 @@
 # You should have received a copy of the GNU General Public License
 # along with Libisi.  If not, see <http://www.gnu.org/licenses/>.
 
+require "libisi/version"
 require "open3"
 require "ordered_hash"
 
