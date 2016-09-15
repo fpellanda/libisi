@@ -14,9 +14,13 @@
 #
 # You should have received a copy of the GNU General Public License
 # along with Libisi.  If not, see <http://www.gnu.org/licenses/>.
+require "bundler/gem_tasks"
+require "rspec/core/rake_task"
 
-require 'rubygems'
-require 'rake'
+RSpec::Core::RakeTask.new(:spec)
+
+task :default => :spec
+
 require 'echoe'
 
 # Echoe
