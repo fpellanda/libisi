@@ -44,8 +44,8 @@ module LibIsi
   def initialize_mail(options)
     # there is no ohter implementation yet
     raise "Mail already initialized" if $mail
-    require "libisi/mail/tmail"
-    $mail = TMailMail.new
+    #require "libisi/mail/tmail"
+    #$mail = TMailMail.new
   end
 
   # UI
@@ -121,7 +121,7 @@ module LibIsi
     ENV["PROGRAM_IDENT"] = program_name
     ENV["TODAY"] = DateTime.now.strftime("%F")
     require 'socket'
-    ENV["HOST"] = open("|hostname") {|f| (f.readlines[0] or "").strip}
+    ENV["HOST"] = 'TODOHOST' # open("|hostname") {|f| (f.readlines[0] or "").strip}
     ENV["NET"] = open("|hostname -d") { |f| (f.readlines[0] or "").strip  }
     ENV["USER"] = open("|whoami") {|f| f.readlines[0].strip}
     ENV["STARTDATETIME"] = DateTime.now.strftime("%F-%T")
@@ -153,6 +153,7 @@ module LibIsi
 	$@.each {|l| $log.debug{l} } if $log.debug?
 
 	# exit immediately
+raise $!
 	exit! 99
       end
     }
