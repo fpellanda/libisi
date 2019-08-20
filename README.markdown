@@ -1,6 +1,6 @@
 Libisi (c) Logintas AG
 
-= Quickstart
+# Quickstart
 
 Console:
 
@@ -43,7 +43,7 @@ try:
   ruby test.rb -v SOMENAME
   ruby test.rb -vv SOMENAME
 
-= Requirements
+# Requirements
 
 To use the base functionality, these packages are required
 on debian systems:
@@ -55,15 +55,15 @@ For additionaly functionalities install these packages:
 For generating charts:
 * libjfreechart-java
 
-== Usage
+## Usage
 
-=== Initialize
+### Initialize
 
   #!/usr/bin/ruby
   require 'libisi'
   init_libisi(:ui => "console")
 
-= Standard commandline options =
+# Standard commandline options =
 Parse the commandline options with:
 
   args = optparse {|o|
@@ -83,7 +83,7 @@ Parse the commandline options with:
 
 For more information see: http://cmdparse.rubyforge.org
 
-=== Logging
+### Logging
 
 For addidtional information on Log4r see
  /usr/share/doc/liblog4r-ruby1.8/html/index.html
@@ -93,7 +93,7 @@ Commandline options added to script:
   "-q","--quiet"
   "-v","--verbose"
 
-==== Usage
+#### Usage
 Simple logging mechanism. Try to aviod 
 normal brackets. If you use a block like
 $log.info{"Something"} the block will not
@@ -106,7 +106,7 @@ be evaluated if the log level is not enabled.
 
 Default Logging is only to stdout.
 
-=== Additional Loggers
+### Additional Loggers
 
 Normal logger with levels from INFO to FATAL.
   new_logger("archivlog", "/var/log/archive", :level => Logger::INFO)
@@ -120,12 +120,12 @@ Logger that only logs Level DEBUG with another pattern
 For more information on pattern see:
   /usr/share/doc/liblog4r-ruby1.8/html/rdoc/files/log4r/formatter/patternformatter_rb.html
 
-== More Loglevels
+## More Loglevels
 
 Log with other level, add option :log_levels to initialization.
   init_libisi(:log_levels => [:CONFIG, :DEBUG, :INFO, :NEW_LEVEL, :WARN, :ERROR, :FATAL])
 
-=== Display Progressbars (console)
+### Display Progressbars (console)
 Command line options added by script:
   "--progress"
 
@@ -137,7 +137,7 @@ Or you can enable/disable progress_bar with
 respectively
  $u.enable_progress_bar(false)
 
-=== Display Progressbar
+### Display Progressbar
 Only if --progress is given on commandline.
 
   progress_bar("Myprogress", amount_of_objects) {
@@ -147,7 +147,7 @@ Only if --progress is given on commandline.
     ...
   }
 
-=== Display Status Information
+### Display Status Information
 You also can display status information
 on the bottom of the progressbar by using
 
@@ -160,7 +160,7 @@ the progress with:
   pmsg("Processing", object.name)
 
 
-= Appendix
+# Appendix
 
 Sources:
 * URL: https://github.com/fpellanda/libisi
